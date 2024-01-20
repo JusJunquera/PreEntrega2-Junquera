@@ -1,0 +1,88 @@
+header img{
+    width: 250px;
+   }
+
+   header{
+    background-color: #FFFFFF ;
+   }
+
+   header nav ul li a {
+    color: #569391;
+    font-size: 30px;
+    text-decoration: none;
+    font: menu;
+
+  } 
+  li{
+    list-style-type: none;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #569391;
+    background-color: #F1DEE2;
+    font-family: 'Borel', cursive;
+  }
+
+  #footer{
+    background-color:#F1DEE2 ;
+    color:#ef849b;
+    font-size: 22px;
+    text-align: center;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+ /*INICIO*/
+
+ img {
+  width: 350px;
+  height: 300px;
+
+ }
+
+main h2{
+  text-align: left;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contenedor-uno{
+  display: flex;
+  justify-content: center;
+  margin: 0 5px;
+}
+
+
+/* Productos */
+
+
+.grid-container-dos{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+
+.grid-container-dos img {
+  width: 300px;
+  height: 250px;
+}
+
+p{
+  font-size: 18px;
+  text-align: center;
+  font: CircularStd-Book, arial
+}
+
+
