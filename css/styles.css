@@ -5,7 +5,7 @@ header img{
    header{
     background-color: #FFFFFF ;
    }
-
+/* no logro activar esto en el navbar con bootstrap*/
    header nav ul li a {
     color: #569391;
     font-size: 30px;
@@ -85,4 +85,23 @@ p{
   font: CircularStd-Book, arial
 }
 
+/* Mobile */
 
+main .img-tres, main .img-siete, main .img-once {
+  display: none
+}
+
+/* No logro que se me creen dos columnas y tres filas*/
+main img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* Desktop*/
+ @media screen and (min-width: 1024px) {
+  main .img-tres, main .img-siete, main .img-once{
+    display: block;
+  }
+  
+ }

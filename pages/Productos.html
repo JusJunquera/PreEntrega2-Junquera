@@ -3,79 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- MI CSS-->
     <link rel="stylesheet" href="../css/styles.css">
     <title>Productos</title>
 </head>
 <body>
     <header>
         <img src="../img/Logo.jpeg" alt="Logo">
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">
-                        Inicio
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"> Inicio </a>
+              <button class="navbar-toggler" 
+              type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="..pages/Productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../pages/Recetas.html">Recetas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Yo
                     </a>
-                </li>
-                <li>
-                    <a href="../pages/Productos.html">
-                        Productos
-                    </a>
-                </li>
-                <li>
-                    <a href="../pages/Recetas.html">
-                        Recetas
-                    </a>
-                </li>
-                <li>
-                    <a href="../pages/Mi-equipo.html">
-                        Unite a mi equipo
-                    </a>
-                </li>
-                <li>
-                    <a href="../pages/Contacto.html">
-                        Contacto
-                    </a>
-                </li>
-            </ul>
-        </nav>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../pages/Mi-equipo.html">Mi equipo</a></li>
+                      <li><a class="dropdown-item" href="../pages/Contacto.html"> Contacto </a></li>
+                    </ul>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-    <!--Lograr que todos queden del mismo tamaño, alineados, que se puedan abrir y por debajo el detalle de cada uno-->
+    
     <main>
         <h1>Productos</h1>
         <section class="grid-container-dos">
-            <div class="grid-item uno">
+            <div class="img-tres">
                  <img src="../img/Bifera Aqua.jpeg" alt="Bifera">
                  <p> Bifera con asas </p>
             </div>
-            <div class="grid-item dos">
+            <div class="img-cuatro">
                  <img src="../img/Terrasavarin28cm.jpeg" alt="Savarin">
                  <p> Savarin Terra 28cm </p>
             </div>
-            <div class="grid-item tres">
+            <div class="img-cinco">
                 <img src="../img/Mate rosa.jpeg" alt="Mate Rosa">
                 <p> Mate Rosa </p>
             </div>
-            <div class="grid-item cuatro">
+            <div class="img-seis">
                  <img src="../img/Cacerola 24cm Fuego.jpeg" alt="Cacerola 24cm">
                  <p> Cacerola Fuego 24cm</p>
             </div>
-            <div class="grid-item cinco">
+            <div class="img-siete">
                  <img src="../img/Flip 2.1 Aqua.jpeg" alt="Flip">
                  <p> Flip 2.1 </p>
             </div>
-            <div class="grid-item seis">
+            <div class="img-ocho">
                  <img src="../img/Jarro Quick Cherry .jpeg" alt="Jarro">
                  <p> Jarro Quick Cherry </p>
             </div>
-            <div class="grid-item siete">
+            <div class="img-nueve">
                  <img src="../img/Terrasarten31cm.jpeg" alt="Sarten 31cm">
                  <p> Sarten Terra 31cm</p>
             </div>
-            <div class="grid-item ocho">
+            <div class="img-diez">
                   <img src="../img/Multiprocesadordevegatales.jpeg" alt="Multiprocesador">
                   <p> Multiprocesador </p>
             </div>
-            <div class="grid-item nueve">
+            <div class="img-once">
                  <img src="../img/utensilios.png" alt="utensillos">
                  <p> Utensillos </p>
             </div>
@@ -93,5 +96,7 @@
         Tik Tok
 
      </footer>
+     <!-- SCRIPT -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
 </body>
 </html>
